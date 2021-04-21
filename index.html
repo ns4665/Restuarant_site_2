@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spicey Landing Page</title>
+  <link rel="stylesheet" href="Style.css">
+  <script src="Scrip.js"></script>
+</head>
+<body>
+
+  <!--header-->
+  <header class="header">
+<h1 class="logo">Spicey</h1>
+<div class="menuToggle " onclick="toggleMenu();"></div>
+<ul class="nav">
+  <li><a href="#hero" onclick="toggleMenu();" >Home</a></li>
+  <li><a href="#services" onclick="toggleMenu();" >Services</a></li>
+  <li><a href="#about" onclick="toggleMenu();">About</a></li>
+  <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+  <li><a href="#team" onclick="toggleMenu();">Team</a></li>
+  <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+  <li><a href="#contacts" onclick="toggleMenu();">Contacts</a></li>
+</ul>
+  </header>
+
+<section class="hero" id="hero">
+<div class="loader"></div>
+<div class="text">
+<h1>Welcome to the <span> Spicey</span> Restuarant</h1>
+<p>The navbar will stick to the top when you reach its scroll position.
+  Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum </p>
+<a href="#menu">
+  <button class="btn">Check our Menu</button>
+</a>
+</div>
+</section>
+
+<section class="dishes-top">
+<div class="grid">
+
+  <div class="big-card">
+    <img src="img/gallery_05.jpg" alt="">
+  </div>
+
+  <div class="card">
+    <img src="img/menu_3.jpg" alt="">
+  </div>
+  <div class="card">
+    <img src="img/dinner-04.jpg" alt="">
+  </div>
+  
+</div>
+</section>
+
+<!--services section-->
+<section class="services" id="services">
+<div class="title flex">
+  <div class="box">
+    <h1>At Spicey we offer incredible services</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div class="box">
+    <img src="img/coffee_50px.png" alt="Coffee image">
+    <h3>Coffee</h3>
+    <p>ome text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+      definitiones no quo, maluisset concludaturque et eum, altera fabulas
+       ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert 
+      laboramus repudiandae nec et. Inciderint efficiantur his ad.
+       </p>
+             <a href="#">
+        <button class="more-info" >More info</button>
+      </a>
+
+  </div>
+  <div class="box">
+    <img src="img/fish_50px.png" alt="Sea food image">
+    <h3>Sea food</h3>
+    <p>ome text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+      definitiones no quo, maluisset concludaturque et eum, altera fabulas
+       ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert 
+      laboramus repudiandae nec et. Inciderint efficiantur his ad. </p>
+      <a href="#">
+        <button class="more-info" >More info</button>
+      </a>
+
+  </div>
+  <div class="box">
+    <img src="img/deliver_food_50px.png" alt="Deliver food image">
+    <h3>Deliver food</h3>
+    <p>ome text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+      definitiones no quo, maluisset concludaturque et eum, altera fabulas
+       ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert 
+      laboramus repudiandae nec et. Inciderint efficiantur his ad. </p>
+      <a href="#">
+        <button class="more-info" >More info</button>
+      </a>
+
+  </div>
+  <div class="box">
+    <img src="img/take_away_food_50px.png" alt="Take away image">
+    <h3>Take away</h3>
+    <p>ome text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+      definitiones no quo, maluisset concludaturque et eum, altera fabulas
+      ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert 
+      laboramus repudiandae nec et. Inciderint efficiantur his ad.
+      </p>
+      <a href="#">
+        <button class="more-info" >More info</button>
+      </a>
+  </div>
+</div>
+</section>
+
+<!--about-->
+<section class="about" id="about">
+<div class="title flex">
+  <div class="box">
+    <h1>About Spicey</h1>
+  </div>
+</div>
+  <div class="container">
+
+    <div class="box">
+     
+      <div class="text">
+         <h3>This is Spicey background or history </h3>
+        <p>
+          Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+definitiones no quo, maluisset concludaturque et eum, altera fabulas
+ ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert 
+laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+
+Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones 
+no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur 
+ius te, id agam omnis evertitur eum. Affert laboramus 
+repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+        </p>
+   
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgbox">
+      <img src="img/about-image.jpg" alt="about image">
+    </div>
+  </div>
+</div>
+</section>
+
+<!--Call to action-->
+<section class="action flex">
+  <div class="container">
+    <div class="box">
+    <h1><span>You don't have to miss our delicious</span> meal</h1>
+    <p>ius te, id agam omnis evertitur eum. <br> Affert laboramus 
+      repudiandae nec et. Inciderint <br> efficiantur his ad. Eum no molestiae voluptatibus.</p>
+<a href="#">
+  <button class="btn">Check Our Menu</button>
+</a>
+  </div>
+</div>
+</section>
+
+<!--menu section-->
+<section class="menu" id="menu">
+  <div class="title flex">
+    <div class="box">
+      <h1>delicious menu</h1>
+    </div>
+  </div>
+<!--
+<div class="menu-nav flex">
+<ul class="nav">
+  <li><a href="#">all</a></li>
+  <li><a href="#">meal</a></li>
+  <li><a href="#">Breakfast</a></li>
+  <li><a href="#">Dinner</a></li>
+  <li><a href="#">burger</a></li>
+  <li><a href="#">Drinks</a></li>
+</ul>
+</div>-->
+
+<div class="container">
+  <div class="box">
+    <div class="imgbox">
+      <img src="img/lunch-03.jpg" alt="Menu image">
+    </div>
+    <div class="text">
+      <h3>R30</h3>
+      <h3>Delicious menu</h3>
+      <p>efficiantur his ad. Eum no molestiae voluptatibus.
+         repudiandae nec et. Inciderint</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgbox">
+      <img src="img/bg-1.jpg" alt="Menu image">
+    </div>
+    <div class="text">
+      <h3>R30</h3>
+      <h3>Delicious menu</h3>
+      <p>efficiantur his ad. Eum no molestiae voluptatibus.
+         repudiandae nec et. Inciderint</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgbox">
+      <img src="img/bg-2.jpg" alt="Menu image">
+    </div>
+    <div class="text">
+      <h3>R30</h3>
+      <h3>Delicious menu</h3>
+      <p>efficiantur his ad. Eum no molestiae voluptatibus.
+         repudiandae nec et. Inciderint</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgbox">
+      <img src="img/menu-5 (1).png" alt="Menu image">
+    </div>
+    <div class="text">
+      <h3>R30</h3>
+      <h3>Delicious menu</h3>
+      <p>efficiantur his ad. Eum no molestiae voluptatibus.
+         repudiandae nec et. Inciderint</p>
+    </div>
+  </div>
+ 
+  
+ 
+  
+  <div class="box">
+    <div class="imgbox">
+      <img src="img/menu-5 (2).png" alt="Menu image">
+    </div>
+    <div class="text">
+      <h3>R30</h3>
+      <h3>Delicious menu</h3>
+      <p>efficiantur his ad. Eum no molestiae voluptatibus.
+         repudiandae nec et. Inciderint</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgbox">
+      <img src="img/menu-5 (3).png" alt="Menu image">
+    </div>
+    <div class="text">
+      <h3>R30</h3>
+      <h3>Delicious menu</h3>
+      <p>efficiantur his ad. Eum no molestiae voluptatibus.
+         repudiandae nec et. Inciderint</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgbox">
+      <img src="img/menu-5 (4).png" alt="Menu image">
+    </div>
+    <div class="text">
+      <h3>R30</h3>
+      <h3>Delicious menu</h3>
+      <p>efficiantur his ad. Eum no molestiae voluptatibus.
+         repudiandae nec et. Inciderint</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgbox">
+      <img src="img/menu_3.jpg" alt="Menu image">
+    </div>
+    <div class="text">
+      <h3>R30</h3>
+      <h3>Delicious menu</h3>
+      <p>efficiantur his ad. Eum no molestiae voluptatibus.
+         repudiandae nec et. Inciderint</p>
+    </div>
+  </div>
+ 
+  
+</div>
+</section>
+
+<!--our team section-->
+<section class="team" id="team">
+  <div class="title flex">
+    <div class="box">
+      <h1>Our special chefs</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <div class="imgbox">
+        <img src="img/chef-1.jpg" alt="Menu image">
+      </div>
+      <div class="text">
+        <h3>Someone Famouse</h3>
+        <ul>
+          <li><a href="#"><img src="img/facebook_f_26px.png" alt=""></a></li>
+         <li><a href="#"><img src="img/twitter_26px.png" alt=""></a></li>
+          <li><a href="#"><img src="img/instagram_26px.png" alt=""></a></li>
+           <li><a href="#"><img src="img/linkedin_2_26px.png" alt=""></a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="box">
+      <div class="imgbox">
+        <img src="img/chef-3.jpg" alt="Menu image">
+      </div>
+      <div class="text">
+        <h3>Someone Famouse</h3>
+        <ul>
+          <li><a href="#"><img src="img/facebook_f_26px.png" alt=""></a></li>
+         <li><a href="#"><img src="img/twitter_26px.png" alt=""></a></li>
+          <li><a href="#"><img src="img/instagram_26px.png" alt=""></a></li>
+           <li><a href="#"><img src="img/linkedin_2_26px.png" alt=""></a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="box">
+      <div class="imgbox">
+        <img src="img/chefs-2.jpg" alt="Menu image">
+      </div>
+      <div class="text">
+        <h3>Someone Famouse</h3>
+        <ul>
+          <li><a href="#"><img src="img/facebook_f_26px.png" alt=""></a></li>
+         <li><a href="#"><img src="img/twitter_26px.png" alt=""></a></li>
+          <li><a href="#"><img src="img/instagram_26px.png" alt=""></a></li>
+           <li><a href="#"><img src="img/linkedin_2_26px.png" alt=""></a></li>
+          </ul>
+      </div>
+    </div>
+    
+    <div class="box">
+      <div class="imgbox">
+        <img src="img/chef-4.jpg" alt="Menu image">
+      </div>
+      <div class="text">
+          <h3>Someone Famouse</h3>
+      
+        <ul>
+          <li><a href="#"><img src="img/facebook_f_26px.png" alt=""></a></li>
+         <li><a href="#"><img src="img/twitter_26px.png" alt=""></a></li>
+          <li><a href="#"><img src="img/instagram_26px.png" alt=""></a></li>
+           <li><a href="#"><img src="img/linkedin_2_26px.png" alt=""></a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonial" id="testimonial">
+  <div class="title flex">
+    <div class="box">
+      <h1>What clients say</h1>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="box">
+    <div class="text">
+      <img src="img/get_quote_26px.png" alt="Quotes image">
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas
+         ut quo. Atqui causae gloriatur ius te</p>
+    </div>
+    <div class="imgbox">
+      <img src="img/comments-4.jpg" alt="Comment image">
+      <h3>Someone special</h3>
+    </div>
+  </div>
+  <div class="box">
+    <div class="text">
+      <img src="img/get_quote_26px.png" alt="Quotes image">
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas
+         ut quo. Atqui causae gloriatur ius te</p>
+    </div>
+    <div class="imgbox">
+      <img src="img/comments-6.jpg" alt="Comment image">
+      <h3>Someone special</h3>
+    </div>
+  </div>
+  <div class="box">
+    <div class="text">
+      <img src="img/get_quote_26px.png" alt="Quotes image">
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas
+         ut quo. Atqui causae gloriatur ius te</p>
+    </div>
+    <div class="imgbox">
+      <img src="img/profil-02.jpg" alt="Comment image">
+      <h3>Someone special</h3>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--contacts section-->
+<section class="contacts" id="contacts">
+<div class="title flex">
+  <div class="box">
+    <h1>Get in touch</h1>
+  </div>
+</div>
+<div class="container">
+
+  <div class="box opening-times">
+    <h3>Opening Hours</h3>
+    <ul>
+      <li>Monday - Friday <br> <p>7:00 AM - 9:00 PM</p></li><br>
+      <li>Saturday - Sunday <br><p>11:00 AM - 10:00 PM</p></li><br>
+      <li>Sunday: Closed</li>
+    </ul>
+  </div>
+
+  <div class="box flex">
+    <img src="img/phone_50px.png" alt="Phone image">
+    <h3>Phone</h3>
+    <p>0123456789</p>
+  </div>
+  <div class="box flex">
+    <img src="img/envelope_50px.png" alt="Envelope image">
+    <h3>Email</h3>
+    <p>info@example. co.za</p>
+  </div>
+  <div class="box flex">
+    <img src="img/location_50px.png" alt="Location image">
+    <h3>Address</h3>
+    <p>Durban</p>
+  </div>
+
+</div>
+<div class="social flex">
+  <h3>Follow Us</h3>
+<ul class="icons flex">
+  <li><a href="#"><img src="img/facebook_f_26px.png" alt="Facebook image"></a></li>
+  <li><a href="#"><img src="img/twitter_26px.png" alt="Twitter image"></a></li>
+  <li><a href="#"><img src="img/instagram_26px.png" alt="instagram image"></a></li>
+</ul>
+</div>
+</section>
+<div class="go-top"><a href="#"><img src="img/up_26px.png" alt="Scroll-top"></a></div>
+
+<footer class="footer flex">
+  <div class="text">
+    <p>Copyright &copy; 2021 | Nkululeko Mthethwa</p>
+  </div>
+
+</footer>
+</body>
+</html>
